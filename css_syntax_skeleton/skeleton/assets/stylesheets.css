@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+h1{
+    font-size: 38px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.ingredients-list {
+    list-style: square inside;
+}
+
+ol{
+    list-style: georgian;
+}
+
+header > img {
+    width: 100px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+input[type='radio']{
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+select{
+    cursor: pointer;
+    outline: none;
+}
+
+input[type='submit']{
+    cursor: pointer;
+    outline: none;
+}
+
+input:last-child:hover{
+    background-color: gold;
+}
+
+ol li:nth-of-type(2n){
+    background-color: lightgrey;
+}
+
+h2 + .user_review{
+    border-top: 1px solid black;
+}
+
+
+
